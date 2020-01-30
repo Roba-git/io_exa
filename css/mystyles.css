@@ -1,0 +1,32 @@
+#header{
+background-color: aqua;
+}
+#menu{
+background-color: rgb(214, 103, 212);
+float: left;
+width: 150px;
+height: 100%;
+font-size: 20px;
+}
+#content{
+background-color: coral;
+margin-left: 160px;
+}
+#footer{
+background-color: rgba(91, 110, 167, 0.741);
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+menu,
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+a:hover {
+    background-color: ForestGreen;
+}
