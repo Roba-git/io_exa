@@ -9,7 +9,7 @@ height: 100%;
 font-size: 20px;
 }
 #content{
-background-color: coral;
+background-color: whitesmoke;
 margin-left: 160px;
 }
 #footer{
@@ -19,6 +19,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: whitesmoke;
 }
 menu,
 ul,
@@ -30,3 +31,16 @@ a {
 a:hover {
     background-color: ForestGreen;
 }
+.myforms{
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+      width: 200px;
+  }
+  #sourceForm{
+    background-color: yellow;
+  }
+  #targetForm{
+    background-color: lightgreen;
+  }
